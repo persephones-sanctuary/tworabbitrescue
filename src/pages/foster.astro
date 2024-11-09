@@ -18,7 +18,7 @@ import Layout from '../layouts/Layout.astro';
 			<!-- Button Group -->
 			<div class="flex items-center gap-x-2 ms-auto py-1 md:ps-6 md:order-3 md:col-span-3">
 				<a href="https://www.tworabbitrescue.org/#getintouch">
-					<button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl border border-gray-200 text-black hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:border-neutral-700 dark:hover:bg-white/10 dark:text-white dark:hover:text-white">
+					<button type="button" class="hidden md:inline-flex py-2 px-3 items-center gap-x-2 text-sm font-medium rounded-xl border border-gray-200 text-black hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none">
 						Get in touch
 					</button>
 				</a>
@@ -61,6 +61,9 @@ import Layout from '../layouts/Layout.astro';
 					</div>
 					<div>
 						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300" href="https://linktr.ee/2rabbitrescue">Follow us</a>
+					</div>
+					<div>
+						<a class="inline-block sm:hidden text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300" href="https://www.tworabbitrescue.org/#getintouch">Get in touch</a>
 					</div>
 					<!--
 					<div>
