@@ -23,7 +23,7 @@ import Layout from '../layouts/Layout.astro';
 					</button>
 				</a>
 				<a rel="noreferrer" target="_blank" href="https://www.paypal.com/donate/?hosted_button_id=TG499P38CCK7N">
-					<button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl border border-transparent bg-gray-400 text-black hover:bg-gray-500 transition disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-500">
+					<button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-bold rounded-xl border border-transparent bg-pink-400 text-white hover:bg-pink-500 transition disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-pink-500">
 						Donate with PayPal
 					</button>
 				</a>
@@ -54,7 +54,10 @@ import Layout from '../layouts/Layout.astro';
 						<a class="relative inline-block text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-lime-400 dark:text-white" aria-current="page" href="/our-bunnies/">Our bunnies</a>
 					</div>
 					<div>
-						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300" href="/foster-or-adopt/">Foster or adopt</a>
+						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300" href="/foster/">Foster</a>
+					</div>
+					<div>
+						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300" href="/adopt/">Adopt</a>
 					</div>
 					<div>
 						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300" href="https://linktr.ee/2rabbitrescue">Follow us</a>
@@ -158,7 +161,7 @@ import Layout from '../layouts/Layout.astro';
 						beetlejuice
 						</h3>
 						<p class="text-xs uppercase text-gray-500 dark:text-neutral-500 mb-2">
-						paired with: delores
+						bonded with: delores
 						</p>
 						<p class="text-xs lowercase text-gray-800 dark:text-neutral-500">
 						male, 1 year old, black & white lionshead & french lop rabbit
@@ -203,7 +206,7 @@ import Layout from '../layouts/Layout.astro';
 							delores
 						</h3>
 						<p class="text-xs uppercase text-gray-500 dark:text-neutral-500 mb-2">
-							paired with: beetlejuice
+							bonded with: beetlejuice
 						</p>
 						<p class="text-xs lowercase text-gray-800 dark:text-neutral-500">
 							female, 1 year old, black & white lionshead & dutch rabbit
@@ -248,7 +251,7 @@ import Layout from '../layouts/Layout.astro';
 							evermore
 						</h3>
 						<p class="text-xs uppercase text-gray-500 dark:text-neutral-500 mb-2">
-							paired with: lenore
+							bonded with: lenore
 						</p>
 						<p class="text-xs lowercase text-gray-800 dark:text-neutral-500">
 							male, 1 year old, chocolate havana rabbit
@@ -293,7 +296,7 @@ import Layout from '../layouts/Layout.astro';
 							lenore
 						</h3>
 						<p class="text-xs uppercase text-gray-500 dark:text-neutral-500 mb-2">
-							paired with: evermore
+							bonded with: evermore
 						</p>
 						<p class="text-xs lowercase text-gray-800 dark:text-neutral-500">
 							female, 2 years old, white gray & brown rex rabbit
@@ -338,7 +341,7 @@ import Layout from '../layouts/Layout.astro';
 							la muerte
 						</h3>
 						<p class="text-xs uppercase text-gray-500 dark:text-neutral-500 mb-2">
-							paired with: xibalba
+							bonded with: xibalba
 						</p>
 						<p class="text-xs lowercase text-gray-800 dark:text-neutral-500">
 							female, 10 months old, white & black dutch rabbit
@@ -383,7 +386,7 @@ import Layout from '../layouts/Layout.astro';
 							xibalba
 						</h3>
 						<p class="text-xs uppercase text-gray-500 dark:text-neutral-500 mb-2">
-							paired with: la muerte
+							bonded with: la muerte
 						</p>
 						<p class="text-xs lowercase text-gray-800 dark:text-neutral-500">
 							male, 10 months old, black & white dutch rabbit
@@ -428,7 +431,7 @@ import Layout from '../layouts/Layout.astro';
 							nightshade
 						</h3>
 						<p class="text-xs uppercase text-gray-500 dark:text-neutral-500 mb-2">
-							paired with: TBD
+							bonded with: TBD
 						</p>
 						<p class="text-xs lowercase text-gray-800 dark:text-neutral-500">
 							male, 1 year old, chocolate havana rabbit
@@ -442,7 +445,7 @@ import Layout from '../layouts/Layout.astro';
 					</p>
 
 					<p class="text-xs uppercase dark:text-neutral-500 mt-2 text-pink-700">
-						keep up with me:
+						eyeball me:
 					</p>
 			
 					<!-- Social Brands -->
@@ -464,13 +467,13 @@ import Layout from '../layouts/Layout.astro';
 				</div>
 				<!-- End Col -->
 			
-				<a class="col-span-full lg:col-span-2 group flex flex-col justify-center text-center rounded-xl p-4 md:p-6 border border-dashed border-gray-200 hover:shadow-sm focus:outline-none focus:shadow-sm dark:border-neutral-700" href="/foster-or-adopt/">
+				<a class="col-span-full lg:col-span-2 group flex flex-col justify-center text-center rounded-xl p-4 md:p-6 border border-dashed border-gray-200 hover:shadow-sm focus:outline-none focus:shadow-sm dark:border-neutral-700" href="/adopt/">
 					<h3 class="text-lg text-gray-800 dark:text-neutral-200">
-					thinking about bringing some of these bonded bunnies home?
+					thinking about bringing some of these bonded bunnies home?</br></br>
 					</h3>
 					<div>
 					<span class="inline-flex items-center text-pink-600 group-hover:text-pink-700 group-focus:text-pink-700 dark:text-pink-500 dark:group-hover:text-pink-400 dark:group-focus:text-pink-400">
-						how to adopt
+						<b>how to adopt</b>
 						<svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
 					</span>
 					</div>
@@ -503,7 +506,7 @@ import Layout from '../layouts/Layout.astro';
 							venus
 						</h3>
 						<p class="text-xs uppercase text-gray-500 dark:text-neutral-500 mb-2">
-							paired with: TBD
+							bonded with: TBD
 						</p>
 						<p class="text-xs lowercase text-gray-800 dark:text-neutral-500">
 							female, 2 years old, white gray & brown rex rabbit
@@ -541,11 +544,11 @@ import Layout from '../layouts/Layout.astro';
 			
 				<a class="col-span-full lg:col-span-2 group flex flex-col justify-center text-center rounded-xl p-4 md:p-6 border border-dashed border-gray-200 hover:shadow-sm focus:outline-none focus:shadow-sm dark:border-neutral-700" href="/#getintouch">
 					<h3 class="text-lg text-gray-800 dark:text-neutral-200">
-					please consider donating through PayPal or our Amazon wishlist! thank you 💕
+					please consider donating through PayPal or our Amazon wishlist!</br><b>thank you</b> 💕</br></br>
 					</h3>
 					<div>
 					<span class="inline-flex items-center gap-x-2 text-pink-600 group-hover:text-pink-700 group-focus:text-pink-700 dark:text-pink-500 dark:group-hover:text-pink-400 dark:group-focus:text-pink-400">
-						support our foster bunnies
+						<b>donate to our rescue</b>
 						<svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
 					</span>
 					</div>
@@ -566,6 +569,9 @@ import Layout from '../layouts/Layout.astro';
 			<div class="grid">
 				<!-- Social Brands -->
 				<div class="text-center md:text-end space-x-2">
+				<a class="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-black hover:text-gray-600 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:text-neutral-400" href="mailto:tworabbitrescue@yahoo.com">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 size-5"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+				</a>
 				<a class="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-black hover:text-gray-600 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:text-neutral-400" href="https://linktr.ee/2rabbitrescue">
 					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 size-5"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
 				</a>
@@ -574,9 +580,6 @@ import Layout from '../layouts/Layout.astro';
 				</a>
 				<a class="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-black hover:text-gray-600 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:text-neutral-400" href="https://www.linkedin.com/company/two-rabbit-rescue/">
 					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 size-5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
-				</a>
-				<a class="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-black hover:text-gray-600 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:text-neutral-400" href="mailto:tworabbitrescue@yahoo.com">
-					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 size-5"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
 				</a>
 				</div>
 				<!-- End Social Brands -->

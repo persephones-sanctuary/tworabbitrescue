@@ -23,7 +23,7 @@ import Layout from '../layouts/Layout.astro';
 					</button>
 				</a>
 				<a rel="noreferrer" target="_blank" href="https://www.paypal.com/donate/?hosted_button_id=TG499P38CCK7N">
-					<button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl border border-transparent bg-gray-400 text-black hover:bg-gray-500 transition disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-500">
+					<button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-bold rounded-xl border border-transparent bg-pink-400 text-white hover:bg-pink-500 transition disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-pink-500">
 						Donate with PayPal
 					</button>
 				</a>
@@ -54,7 +54,10 @@ import Layout from '../layouts/Layout.astro';
 						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300" href="/our-bunnies/">Our bunnies</a>
 					</div>
 					<div>
-						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300" href="/foster-or-adopt/">Foster or adopt</a>
+						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300" href="/foster/">Foster</a>
+					</div>
+					<div>
+						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300" href="/adopt/">Adopt</a>
 					</div>
 					<div>
 						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300" href="https://linktr.ee/2rabbitrescue">Follow us</a>
@@ -147,14 +150,14 @@ import Layout from '../layouts/Layout.astro';
 						in a nutshell
 					</h2>
 					<p class="mt-3 text-gray-800 dark:text-neutral-400">
-						We seek to reduce the number of rabbits that are abandoned or rehomed due to behavioral issues stemming from being isolated from others. Rabbits are meant to be in bonded pairs or family units; because of this, making sure they're bonded greatly supports their mental and physical health.
+						We are a rescue dedicated to saving rabbits. We rescue rabbits from shelters, provide any necessary medical care, evaluate them, and from there bond and/or train them to prepare them for adoption. 
 					</p>
 					</div>
 			
 					<div class="space-y-6 lg:space-y-10">
 					<!-- Icon Block -->
 					<div class="flex gap-x-5 sm:gap-x-8">
-						<svg class="shrink-0 mt-2 size-6 text-gray-800 dark:text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rabbit"><path d="M13 16a3 3 0 0 1 2.24 5"/><path d="M18 12h.01"/><path d="M18 21h-8a4 4 0 0 1-4-4 7 7 0 0 1 7-7h.2L9.6 6.4a1 1 0 1 1 2.8-2.8L15.8 7h.2c3.3 0 6 2.7 6 6v1a2 2 0 0 1-2 2h-1a3 3 0 0 0-3 3"/><path d="M20 8.54V4a2 2 0 1 0-4 0v3"/><path d="M7.612 12.524a3 3 0 1 0-1.6 4.3"/></svg>						
+						<svg class="shrink-0 mt-2 size-8 text-gray-800 dark:text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rabbit"><path d="M13 16a3 3 0 0 1 2.24 5"/><path d="M18 12h.01"/><path d="M18 21h-8a4 4 0 0 1-4-4 7 7 0 0 1 7-7h.2L9.6 6.4a1 1 0 1 1 2.8-2.8L15.8 7h.2c3.3 0 6 2.7 6 6v1a2 2 0 0 1-2 2h-1a3 3 0 0 0-3 3"/><path d="M20 8.54V4a2 2 0 1 0-4 0v3"/><path d="M7.612 12.524a3 3 0 1 0-1.6 4.3"/></svg>						
 						<div class="grow">
 						<h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
 							who we are
@@ -165,17 +168,32 @@ import Layout from '../layouts/Layout.astro';
 						</div>
 					</div>
 					<!-- End Icon Block -->
+
+					<div class="space-y-6 lg:space-y-10">
+						<!-- Icon Block -->
+						<div class="flex gap-x-5 sm:gap-x-8">
+							<svg class="shrink-0 mt-2 size-8 text-gray-800 dark:text-white" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" zoomAndPan="magnify" viewBox="0 0 36 36.000001" height="48" preserveAspectRatio="xMidYMid meet" version="1.0"><defs><clipPath id="71bcddaaec"><path d="M 0.488281 9 L 8 9 L 8 17 L 0.488281 17 Z M 0.488281 9 " clip-rule="nonzero"/></clipPath></defs><path stroke-linecap="round" transform="matrix(0.912162, 0, 0, 0.912162, 0.0121617, 0.00000194595)" fill="none" stroke-linejoin="round" d="M 13.000903 15.999072 C 13.591876 15.999072 14.135741 16.157521 14.632501 16.482984 C 15.12926 16.804165 15.501829 17.232406 15.741644 17.771989 C 15.985741 18.311572 16.058542 18.87685 15.968612 19.459257 C 15.878681 20.045947 15.634584 20.559836 15.240603 21.000924 " stroke="#000000" stroke-width="2" stroke-opacity="1" stroke-miterlimit="4"/><path stroke-linecap="round" transform="matrix(0.912162, 0, 0, 0.912162, 0.0121617, 0.00000194595)" fill="none" stroke-linejoin="round" d="M 17.998473 11.999304 L 18.01132 11.999304 " stroke="#000000" stroke-width="2" stroke-opacity="1" stroke-miterlimit="4"/><path stroke-linecap="round" transform="matrix(0.912162, 0, 0, 0.912162, 0.0121617, 0.00000194595)" fill="none" stroke-linejoin="round" d="M 17.998473 21.000924 L 9.998936 21.000924 C 9.467917 21.000924 8.958311 20.898146 8.470116 20.696873 C 7.97764 20.491318 7.545116 20.204396 7.172547 19.827544 C 6.795695 19.454975 6.508774 19.022452 6.303218 18.529975 C 6.101945 18.041781 5.999167 17.532174 5.999167 17.001156 C 5.999167 16.538656 6.046274 16.08472 6.136204 15.635068 C 6.226135 15.185415 6.35889 14.744327 6.534468 14.320368 C 6.710047 13.89641 6.924167 13.493864 7.181112 13.11273 C 7.433774 12.727313 7.724977 12.376155 8.05044 12.050692 C 8.375903 11.72523 8.727061 11.434026 9.112478 11.181364 C 9.493612 10.924419 9.896158 10.710299 10.320116 10.53472 C 10.744075 10.354859 11.185163 10.222104 11.634816 10.136456 C 12.084468 10.046526 12.538403 9.999419 13.000903 9.999419 L 13.197894 9.999419 L 9.600672 6.397915 C 9.412246 6.213771 9.270927 5.999651 9.172431 5.755554 C 9.069653 5.515739 9.018265 5.263077 9.018265 5.00185 C 9.018265 4.736341 9.069653 4.483678 9.172431 4.243864 C 9.270927 3.999766 9.412246 3.785646 9.600672 3.601503 C 9.784815 3.413077 9.998936 3.271757 10.243033 3.168979 C 10.482848 3.070484 10.73551 3.019095 11.001019 3.019095 C 11.262246 3.019095 11.514908 3.070484 11.759005 3.168979 C 11.99882 3.271757 12.212941 3.413077 12.401366 3.601503 L 15.801598 7.001734 L 15.998589 7.001734 C 19.300325 7.001734 21.998242 9.699651 21.998242 13.001387 L 21.998242 13.999188 C 21.998242 14.264697 21.951135 14.521642 21.848357 14.765739 C 21.74558 15.009836 21.599978 15.228239 21.415834 15.412382 C 21.227408 15.600808 21.009005 15.74641 20.764908 15.849188 C 20.520811 15.947683 20.263867 15.999072 19.998357 15.999072 L 19.000556 15.999072 C 18.602292 15.999072 18.221158 16.076155 17.852871 16.230322 C 17.484584 16.380206 17.159121 16.598609 16.880765 16.876966 C 16.598126 17.159605 16.379723 17.485068 16.229839 17.853355 C 16.075672 18.217359 15.998589 18.602776 15.998589 19.00104 " stroke="#000000" stroke-width="2" stroke-opacity="1" stroke-miterlimit="4"/><path stroke-linecap="round" transform="matrix(0.912162, 0, 0, 0.912162, 0.0121617, 0.00000194595)" fill="none" stroke-linejoin="round" d="M 19.998357 8.539118 L 19.998357 3.999766 C 19.998357 3.734257 19.951251 3.481595 19.848473 3.233216 C 19.745695 2.989118 19.600093 2.774998 19.41595 2.586572 C 19.227524 2.398146 19.009121 2.252544 18.765024 2.154049 C 18.520927 2.051271 18.263982 1.999882 17.998473 1.999882 C 17.732964 1.999882 17.480302 2.051271 17.236204 2.154049 C 16.987825 2.252544 16.773704 2.398146 16.585279 2.586572 C 16.396853 2.774998 16.255533 2.989118 16.152755 3.233216 C 16.049978 3.481595 15.998589 3.734257 15.998589 3.999766 L 15.998589 7.001734 " stroke="#000000" stroke-width="2" stroke-opacity="1" stroke-miterlimit="4"/><g clip-path="url(#71bcddaaec)"><path stroke-linecap="round" transform="matrix(0.912162, 0, 0, 0.912162, 0.0121617, 0.00000194595)" fill="none" stroke-linejoin="round" d="M 7.613635 12.52604 C 7.425209 12.192012 7.181112 11.905091 6.881343 11.665276 C 6.581575 11.421179 6.251829 11.2456 5.883542 11.134257 C 5.519538 11.018632 5.146968 10.980091 4.761552 11.010067 C 4.380417 11.040044 4.016413 11.13854 3.67382 11.309836 C 3.331227 11.47685 3.031459 11.703817 2.774514 11.990739 C 2.51757 12.273378 2.320579 12.594558 2.187825 12.95428 C 2.05507 13.314003 1.990834 13.68229 1.999399 14.067706 C 2.007964 14.448841 2.089329 14.817128 2.239214 15.168285 C 2.389098 15.523725 2.594653 15.836341 2.864445 16.106132 C 3.134237 16.380206 3.446852 16.594327 3.79801 16.748493 C 4.144885 16.90266 4.513172 16.984026 4.898589 16.996873 C 5.279723 17.00972 5.652292 16.954049 6.012014 16.825577 " stroke="#000000" stroke-width="2" stroke-opacity="1" stroke-miterlimit="4"/></g><path stroke-linecap="round" transform="matrix(0.912162, 0, 0, 0.912162, 13.802837, 13.790677)" fill="none" stroke-linejoin="round" d="M 12.999137 16.001588 C 13.590109 15.997305 14.138257 16.160037 14.635016 16.481217 C 15.131776 16.802398 15.500063 17.234921 15.739877 17.774505 C 15.983975 18.314088 16.061058 18.875083 15.966845 19.461773 C 15.876914 20.044181 15.632817 20.55807 15.238836 20.999158 " stroke="#000000" stroke-width="2" stroke-opacity="1" stroke-miterlimit="4"/><path stroke-linecap="round" transform="matrix(0.912162, 0, 0, 0.912162, 13.802837, 13.790677)" fill="none" stroke-linejoin="round" d="M 18.000989 12.001819 L 18.009554 12.001819 " stroke="#000000" stroke-width="2" stroke-opacity="1" stroke-miterlimit="4"/><path stroke-linecap="round" transform="matrix(0.912162, 0, 0, 0.912162, 13.802837, 13.790677)" fill="none" stroke-linejoin="round" d="M 18.000989 20.999158 L 10.001451 20.999158 C 9.470433 20.999158 8.960826 20.89638 8.468349 20.695107 C 7.980155 20.493833 7.547632 20.20263 7.17078 19.83006 C 6.79821 19.453208 6.507006 19.020685 6.305733 18.532491 C 6.100178 18.040014 6.001682 17.530407 6.001682 16.999389 C 6.001682 16.541171 6.044506 16.087236 6.134437 15.633301 C 6.224368 15.183648 6.357122 14.746842 6.532701 14.322884 C 6.70828 13.894643 6.9224 13.492097 7.179344 13.110963 C 7.436289 12.729828 7.72321 12.374388 8.048673 12.048925 C 8.374136 11.723462 8.729576 11.436541 9.11071 11.179597 C 9.491845 10.922652 9.898673 10.708532 10.322632 10.532953 C 10.74659 10.357374 11.183396 10.22462 11.633048 10.134689 C 12.086984 10.044759 12.540919 10.001935 12.999137 10.001935 L 13.20041 10.001935 L 9.598905 6.40043 C 9.414761 6.216286 9.269159 6.002166 9.170664 5.758069 C 9.072169 5.513971 9.02078 5.261309 9.02078 5.000082 C 9.02078 4.738856 9.072169 4.486193 9.170664 4.242096 C 9.269159 3.997999 9.414761 3.783879 9.598905 3.599735 C 9.787331 3.415592 10.001451 3.26999 10.241266 3.171494 C 10.485363 3.068717 10.738025 3.02161 10.999252 3.02161 C 11.260479 3.02161 11.513141 3.068717 11.757238 3.171494 C 12.001336 3.26999 12.215456 3.415592 12.399599 3.599735 L 15.799831 6.999967 L 16.001104 6.999967 C 19.298558 6.999967 22.000757 9.697884 22.000757 12.99962 L 22.000757 14.001703 C 22.000757 14.267213 21.949369 14.519875 21.846591 14.763972 C 21.748095 15.012352 21.602494 15.226472 21.414068 15.414898 C 21.225642 15.603324 21.011521 15.744643 20.767424 15.847421 C 20.519044 15.950199 20.266382 16.001588 20.000873 16.001588 L 18.99879 16.001588 C 18.600526 16.001588 18.219391 16.074389 17.851104 16.228555 C 17.482817 16.382722 17.161637 16.596842 16.878998 16.879481 C 16.596359 17.16212 16.382239 17.483301 16.228072 17.851588 C 16.078188 18.219875 16.001104 18.601009 16.001104 18.999273 " stroke="#000000" stroke-width="2" stroke-opacity="1" stroke-miterlimit="4"/><path stroke-linecap="round" transform="matrix(0.912162, 0, 0, 0.912162, 13.802837, 13.790677)" fill="none" stroke-linejoin="round" d="M 20.000873 8.541634 L 20.000873 3.997999 C 20.000873 3.736772 19.949484 3.479828 19.846706 3.23573 C 19.748211 2.991633 19.602609 2.77323 19.414183 2.584804 C 19.225757 2.396379 19.011637 2.255059 18.763257 2.152281 C 18.51916 2.049504 18.266498 1.998115 18.000989 1.998115 C 17.735479 1.998115 17.478535 2.049504 17.234438 2.152281 C 16.99034 2.255059 16.771938 2.396379 16.587794 2.584804 C 16.399368 2.77323 16.253766 2.991633 16.150989 3.23573 C 16.052493 3.479828 16.001104 3.736772 16.001104 3.997999 L 16.001104 6.999967 " stroke="#000000" stroke-width="2" stroke-opacity="1" stroke-miterlimit="4"/><path stroke-linecap="round" transform="matrix(0.912162, 0, 0, 0.912162, 13.802837, 13.790677)" fill="none" stroke-linejoin="round" d="M 7.611868 12.524273 C 7.423442 12.190245 7.179344 11.903324 6.883858 11.663509 C 6.58409 11.423694 6.250062 11.248115 5.886057 11.13249 C 5.51777 11.021148 5.145201 10.978324 4.764067 11.0083 C 4.382932 11.038277 4.018928 11.141055 3.676335 11.308069 C 3.32946 11.479365 3.029691 11.706333 2.772747 11.988972 C 2.515803 12.271611 2.323094 12.592791 2.19034 12.952513 C 2.053302 13.312236 1.993349 13.684805 2.001914 14.065939 C 2.010478 14.451356 2.087562 14.819643 2.237446 15.170801 C 2.38733 15.521958 2.597168 15.834574 2.86696 16.108648 C 3.136752 16.382722 3.445085 16.59256 3.796242 16.746727 C 4.1474 16.900893 4.515687 16.986542 4.896821 16.999389 C 5.277955 17.012236 5.650525 16.952282 6.010247 16.82381 " stroke="#000000" stroke-width="2" stroke-opacity="1" stroke-miterlimit="4"/></svg>
+							<div class="grow">
+							<h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
+								why 2 rabbit rescue
+							</h3>
+							<p class="mt-1 text-gray-600 dark:text-neutral-400">
+								Our belief is that rabbits are meant to be in bonded pairs or family units in order to greatly support their mental and physical health. As a result, we seek to educate people to reduce the number of rabbits that are abandoned or rehomed due to behavioral issues stemming from being isolated from others.
+							</p>
+							</div>
+						</div>
+						<!-- End Icon Block -->
 			
 					<!-- Icon Block -->
 					<div class="flex gap-x-5 sm:gap-x-8">
-						<svg class="shrink-0 mt-2 size-6 text-gray-800 dark:text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+						<svg class="shrink-0 mt-2 size-8 text-gray-800 dark:text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
 						<div class="grow">
 						<h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
 							why we exist
 						</h3>
 						<p class="mt-1 text-gray-600 dark:text-neutral-400">
 							Rabbits are subject to incredibly high levels of overpopulation and overcrowding at shelters due to a lack of proper knowledge & care to ensure they don't multiply. This is contributed to by neglectful practices from breeders and pet stores. As a result, rabbits face high euthanasia and abandonment rates and often don't survive.</br></br>
-							Our goal is to turn this situation around, providing awareness, resources, and education. We do this while rescuing, rehabilitating, and finding furever homes for as many as we can.
+							Our goal is to turn this situation around through promoting awareness, providing resources, and education. We do this while rescuing, rehabilitating, and finding furever homes for as many as we can.
 						</p>
 						</div>
 					</div>
@@ -183,13 +201,13 @@ import Layout from '../layouts/Layout.astro';
 			
 					<!-- Icon Block -->
 					<div class="flex gap-x-5 sm:gap-x-8">
-						<svg class="shrink-0 mt-2 size-6 text-gray-800 dark:text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-earth"><path d="M21.54 15H17a2 2 0 0 0-2 2v4.54"/><path d="M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17"/><path d="M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"/><circle cx="12" cy="12" r="10"/></svg>						
+						<svg class="shrink-0 mt-2 size-8 text-gray-800 dark:text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-earth"><path d="M21.54 15H17a2 2 0 0 0-2 2v4.54"/><path d="M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17"/><path d="M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"/><circle cx="12" cy="12" r="10"/></svg>						
 						<div class="grow">
 						<h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
 							what we do
 						</h3>
 						<p class="mt-1 text-gray-600 dark:text-neutral-400">
-							We seek to <b>provide resources to other rescues and rescuers</b>, <b>educate & promote awareness of proper animal care</b>, and <b>pull animals from shelters or dangerous situations to ensure they get a second chance at life.</b>
+							We connect with & provide resources to other rescues & rescuers, educate & promote awareness of proper animal care, and pull animals from shelters or dangerous situations to give them a second chance at life.
 						</p>
 						</div>
 					</div>
@@ -211,6 +229,9 @@ import Layout from '../layouts/Layout.astro';
 			<div class="grid">
 				<!-- Social Brands -->
 				<div class="text-center md:text-end space-x-2">
+				<a class="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-black hover:text-gray-600 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:text-neutral-400" href="mailto:tworabbitrescue@yahoo.com">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 size-5"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+				</a>
 				<a class="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-black hover:text-gray-600 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:text-neutral-400" href="https://linktr.ee/2rabbitrescue">
 					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 size-5"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
 				</a>
@@ -219,9 +240,6 @@ import Layout from '../layouts/Layout.astro';
 				</a>
 				<a class="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-black hover:text-gray-600 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:text-neutral-400" href="https://www.linkedin.com/company/two-rabbit-rescue/">
 					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 size-5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
-				</a>
-				<a class="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-black hover:text-gray-600 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:text-neutral-400" href="mailto:tworabbitrescue@yahoo.com">
-					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 size-5"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
 				</a>
 				</div>
 				<!-- End Social Brands -->

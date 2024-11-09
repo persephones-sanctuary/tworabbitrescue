@@ -23,7 +23,7 @@ import Layout from '../layouts/Layout.astro';
 					</button>
 				</a>
 				<a rel="noreferrer" target="_blank" href="https://www.paypal.com/donate/?hosted_button_id=TG499P38CCK7N">
-					<button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl border border-transparent bg-gray-400 text-black hover:bg-gray-500 transition disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-500">
+					<button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-bold rounded-xl border border-transparent bg-pink-400 text-white hover:bg-pink-500 transition disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-pink-500">
 						Donate with PayPal
 					</button>
 				</a>
@@ -54,7 +54,10 @@ import Layout from '../layouts/Layout.astro';
 						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300" href="/our-bunnies/">Our bunnies</a>
 					</div>
 					<div>
-						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300" href="/foster-or-adopt/">Foster or adopt</a>
+						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300" href="/foster/">Foster</a>
+					</div>
+					<div>
+						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300" href="/adopt/">Adopt</a>
 					</div>
 					<div>
 						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300" href="https://linktr.ee/2rabbitrescue">Follow us</a>
@@ -104,8 +107,8 @@ import Layout from '../layouts/Layout.astro';
 						<div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8">
 						<!-- Announcement Banner -->
 						<div class="flex justify-center">
-							<a class="group inline-flex items-center bg-white/30 hover:shadow-pink-700/50 border border-white/30 p-1 ps-4 rounded-full shadow-md focus:outline-none focus:shadow-pink-700/50" href="/our-bunnies/">
-							<p class="me-2 text-white text-sm">
+							<a class="group inline-flex items-center bg-white/20 hover:shadow-pink-700/50 border border-white/30 p-1 ps-4 rounded-full shadow-md focus:outline-none focus:shadow-pink-700/50" href="/our-bunnies/">
+							<p class="me-2 text-white font-bold text-sm">
 								See our bunnies
 							</p>
 							<span class="group-hover:bg-white/40 py-1.5 px-2.5 flex justify-center items-center gap-x-2 rounded-full bg-white/30 font-semibold text-white text-sm">
@@ -124,13 +127,13 @@ import Layout from '../layouts/Layout.astro';
 						<!-- End Title -->
 					
 						<div class="max-w-3xl text-center mx-auto">
-							<p class="text-lg text-white/90">Dedicated to the proper rehoming of rabbits in Southern California, while educating & providing resources across the globe to prevent abandonment.</p>
-							<p class="text-white mt-4 text-sm">(& we have plans to expand!)</p>
+							<p class="text-lg text-white/90">Dedicated to the proper rehoming of rabbits located in Southern California, while educating & providing resources across the globe to prevent abandonment.</p>
+							<p class="text-white mt-4 text-sm"><em><b>not in your area? follow us anyway - we have plans to expand!</b></em></p>
 						</div>
 					
 						<!-- Buttons -->
 						<div class="text-center">
-							<a class="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-gray-600 to-gray-600 shadow-lg shadow-transparent hover:shadow-pink-700/50 border border-transparent text-white text-sm font-medium rounded-full focus:outline-none focus:shadow-pink-700/50 py-3 px-6" href="/#getintouch">
+							<a class="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-gray-600 to-gray-600 shadow-lg shadow-transparent hover:shadow-pink-700/50 border border-transparent text-white text-sm font-bold rounded-full focus:outline-none focus:shadow-pink-700/50 py-3 px-6" href="/#getintouch">
 							Get in touch
 							<svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
 							</a>
@@ -190,7 +193,7 @@ import Layout from '../layouts/Layout.astro';
 					our mission
 					</h3>
 					<p class="mt-1 text-gray-600 dark:text-neutral-400">
-					why are we called 2 rabbit rescue? why are we around, anyway? what do we do that's so important?
+					why are we called 2 rabbit rescue? what do we do - and why is it so important?
 					</p>
 				</div>
 				</a>
@@ -207,14 +210,14 @@ import Layout from '../layouts/Layout.astro';
 					our bunnies
 					</h3>
 					<p class="mt-1 text-gray-600 dark:text-neutral-400">
-					a list of our current rescues if you are thinking about fostering, adoption, or just want to learn more about the lives of our bunnies
+					all of our current rescued rabbits
 					</p>
 				</div>
 				</a>
 				<!-- End Card -->
 
 				<!-- Card -->
-				<a class="group block" href="/foster-or-adopt/">
+				<div class="group block">
 				<div class="aspect-w-16 aspect-h-12 overflow-hidden bg-gray-100 rounded-2xl dark:bg-neutral-800">
 					<img class="group-hover:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl" src="/src/assets/images/foster_or_adopt.png" alt="Foster or Adopt">
 				</div>
@@ -224,10 +227,10 @@ import Layout from '../layouts/Layout.astro';
 					foster or adopt with us
 					</h3>
 					<p class="mt-1 text-gray-600 dark:text-neutral-400">
-					what does the process look like? how do I get started?
+					click <a class="font-bold text-pink-500" href="/foster">here</a> if interested in becoming a foster, and <a class="font-bold text-pink-500" href="/adopt">here</a> if you'd like to adopt
 					</p>
 				</div>
-				</a>
+			</div>
 				<!-- End Card -->
 
 				<!-- Card -->
@@ -271,14 +274,14 @@ import Layout from '../layouts/Layout.astro';
 				<img class="group-hover:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl" src="/src/assets/images/contact_us.png" alt="Two of our rescue bunnies, eating veggies">
 				</div>
 				<!-- End Col -->
-
 				<div class="space-y-8 lg:space-y-16">
+				<!--
 				<div>
 					<h3 class="mb-5 font-semibold text-black dark:text-white">
 					where we operate
 					</h3>
 
-					<!-- Grid -->
+					<!-- Grid
 					<div class="grid sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-12">
 					<div class="flex gap-4">
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 size-5"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
@@ -295,8 +298,9 @@ import Layout from '../layouts/Layout.astro';
 						</div>
 					</div>
 					</div>
-					<!-- End Grid -->
+					<!-- End Grid
 				</div>
+				-->
 
 				<div>
 					<h3 class="mb-5 font-semibold text-black dark:text-white">
@@ -339,7 +343,47 @@ import Layout from '../layouts/Layout.astro';
 
 				<div>
 					<h3 class="mb-5 font-semibold text-black dark:text-white">
-					considering donating?
+					follow us
+					</h3>
+
+					<!-- Grid -->
+					<div class="grid sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-12">
+					<div class="flex gap-4">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 size-5"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+						
+						<div class="grow">
+						<p class="text-sm">
+							instagram
+						</p>
+						<p>
+							<a class="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-gray-400 hover:before:bg-black focus:outline-none focus:before:bg-black dark:text-white dark:hover:before:bg-white dark:focus:before:bg-white" href="https://www.instagram.com/2rabbitrescue">
+							@2rabbitrescue
+							</a>
+						</p>
+						</div>
+					</div>
+
+					<div class="flex gap-4">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 size-5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+						
+						<div class="grow">
+						<p class="text-sm">
+							linkedin
+						</p>
+						<p>
+							<a class="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-gray-400 hover:before:bg-black focus:outline-none focus:before:bg-black dark:text-white dark:hover:before:bg-white dark:focus:before:bg-white" href="https://www.linkedin.com/company/two-rabbit-rescue/">
+							@two-rabbit-rescue
+							</a>
+						</p>
+						</div>
+					</div>
+					</div>
+					<!-- End Grid -->
+				</div>
+
+				<div>
+					<h3 class="mb-5 font-semibold text-black dark:text-white">
+					thinking about donating to us?
 					</h3>
 
 					<!-- Grid -->
@@ -349,7 +393,7 @@ import Layout from '../layouts/Layout.astro';
 
 						<div class="grow">
 						<p class="text-sm">
-							send us money
+							send money
 						</p>
 						<p>
 							<a class="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-gray-400 hover:before:bg-black focus:outline-none focus:before:bg-black dark:text-white dark:hover:before:bg-white dark:focus:before:bg-white" href="https://www.paypal.com/donate/?hosted_button_id=TG499P38CCK7N" rel="noreferrer" target="_blank">
@@ -363,7 +407,7 @@ import Layout from '../layouts/Layout.astro';
 						<svg class="flex-shrink-0 size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
 						<div class="grow">
 						<p class="text-sm">
-							send us things
+							send things
 						</p>
 						<p>
 							<a class="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-gray-400 hover:before:bg-black focus:outline-none focus:before:bg-black dark:text-white dark:hover:before:bg-white dark:focus:before:bg-white" href="https://www.amazon.com/hz/wishlist/ls/1BDO5XHRYVJN5?ref_=wl_share" rel="noreferrer" target="_blank">
@@ -390,6 +434,9 @@ import Layout from '../layouts/Layout.astro';
 			<div class="grid">
 				<!-- Social Brands -->
 				<div class="text-center md:text-end space-x-2">
+				<a class="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-black hover:text-gray-600 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:text-neutral-400" href="mailto:tworabbitrescue@yahoo.com">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 size-5"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+				</a>
 				<a class="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-black hover:text-gray-600 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:text-neutral-400" href="https://linktr.ee/2rabbitrescue">
 					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 size-5"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
 				</a>
@@ -398,9 +445,6 @@ import Layout from '../layouts/Layout.astro';
 				</a>
 				<a class="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-black hover:text-gray-600 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:text-neutral-400" href="https://www.linkedin.com/company/two-rabbit-rescue/">
 					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 size-5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
-				</a>
-				<a class="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-black hover:text-gray-600 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:text-neutral-400" href="mailto:tworabbitrescue@yahoo.com">
-					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 size-5"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
 				</a>
 				</div>
 				<!-- End Social Brands -->
